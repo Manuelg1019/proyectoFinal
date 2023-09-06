@@ -1,0 +1,57 @@
+<div>
+    <h2>Listado de Recetas Representativas</h2>
+ 
+       
+
+          <div *ngFor="let recipe of recipes" class="card" style="width: 20rem;">
+            <img class="card-img-top" src="https://www.buengusto.co/wp-content/uploads/2019/08/co_mde_bandeja_paisa-1920x1080.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Bandeja Paisa</h4>
+              <p class="card-text">Es un plato típico de la región de Antioquia (Medellín) y se compone de carne de res, picadillo, chicharrón, chorizo, frijoles negros, arroz, huevo frito, plátanos, arepas, hogao y aguacate</p>
+              <h4 class="card-title">Ingredientes</h4>
+                <ul>
+                  <li >{{ recipe.ingredientes }}</li>
+                </ul>
+              <h4>Pais- (cultura gastronomica):</h4>
+              <ul>
+                <li>Colombia</li>
+                <li>Cultura Gastronomica Colombiana</li>   
+              </ul>
+            </div>
+          </div>
+
+
+          <div *ngFor="let recipe of recipes"  class="card" style="width: 20rem;">
+            <img class="card-img-top" src="https://recetinas.com/wp-content/uploads/2018/07/ajiaco-colombiano.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Ajiaco</h4>
+              <p class="card-text">Es una sopa hecha con trozos de pollo, patatas y una hierba aromática llamada guasca, que le da su particular (¡y delicioso!) sabor. La sopa se suele servir con un trozo de mazorca de maíz y, como guarnición, arroz, alcaparras, medio aguacate y una crema blanca espesa. A continuación, se pueden añadir los ingredientes que se deseen a la sopa. </p>
+              <h4 class="card-title">Ingredientes</h4>
+              <ul>
+                <li *ngFor="let products of recipes">{{ recipe.ingredientes }}</li>
+              </ul>
+            <h4>Pais- (cultura gastronomica):</h4>
+            <ul>
+              <li>Colombia</li>
+              <li>Cultura Gastronomica Colombiana</li>   
+            </ul>
+          </div>
+        </div>
+
+          <div *ngFor="let recipe of recipes" class="card" style="width: 20rem;">
+            <img class="card-img-top" src="https://cdn0.recetasgratis.net/es/posts/1/8/1/sancocho_de_gallina_o_pollo_12181_600_square.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Sancocho</h4>
+              <p class="card-text">Esta sopa puede hacerse con pescado, pollo, carne de vaca o cerdo. El más famoso es el sancocho de pollo, también llamado “Sancocho de gallina”. En la sopa encontrarás maíz, patas de pollo, yuca, plátano, cilantro y patatas. Un plato muy completo, típico de un domingo familiar. </p>
+              <h4 class="card-title">Ingredientes</h4>
+              <ul>
+                <li *ngFor="let products of recipes">{{ recipe.ingredientes }}</li>
+              </ul>
+            <h4>Pais- (cultura gastronomica):</h4>
+            <ul>
+              <li>Colombia</li>
+              <li>Cultura Gastronomica Colombiana</li>   
+            </ul>
+          </div>
+        </div>
+          

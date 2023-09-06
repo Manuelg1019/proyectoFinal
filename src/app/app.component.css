@@ -1,0 +1,38 @@
+.nav{
+    padding: 0 40px;
+    height: 80px;
+    background-color: rgb(172, 112, 82);
+    color: aliceblue;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 1000px;   
+
+}
+.nav ul{
+    list-style: none;
+
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.menu > li > button{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: beige;
+    margin-left: 2px;
+
+}
+.menu li button:hover{
+    background-color: rgb(89, 70, 70);
+    color: black;
+}
+body{
+    background-color: rgb(216, 185, 147);
+}

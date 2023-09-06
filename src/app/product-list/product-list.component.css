@@ -1,0 +1,11 @@
+/* product-list.component.css */
+
+h2 {
+    text-align: center;
+    color: brown;
+}
+
+li{
+    display: inline-block;
+    margin-left: 2rem;
+}

@@ -1,0 +1,22 @@
+/* HeroDetailComponent's private CSS styles */
+h2{
+  text-align: center;
+  color: brown;
+}
+.card {
+  background-color: rgba(97, 38, 38, 0.353);
+  margin-right: 5px;
+  margin-left: 1rem;
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+.card img {
+  width: 290px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  
+}

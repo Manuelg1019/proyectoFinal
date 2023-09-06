@@ -1,0 +1,44 @@
+
+<div *ngIf="culture">
+  <h2>{{ culture.name }}</h2>
+  <p>{{ culture.description }}</p>
+  <h3>Países:</h3>
+  <ul>
+    <li *ngFor="let country of culture.countries">{{ country }}</li>
+  </ul>
+  
+   <h3>Restaurantes: </h3>
+
+  <ul>
+   <li *ngFor="let restaurants of culture.restaurants">{{ restaurants.name }}</li>
+ </ul>
+ <h3>Productos : </h3>
+ <ul>
+   <li *ngFor="let products of culture.products">{{ products }}</li>
+ </ul>
+</div>
+    
+    <h3>Recetas: </h3> 
+<div>
+  <div class="card" style="width: 20rem;" >
+    <img class="card-img-top" src="https://www.buengusto.co/wp-content/uploads/2019/08/co_mde_bandeja_paisa-1920x1080.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">Bandeja Paisa</h4>
+      <p class="card-text">Es un plato típico de la región de Antioquia (Medellín) y se compone de carne de res, picadillo, chicharrón, chorizo, frijoles negros, arroz, huevo frito, plátanos, arepas, hogao y aguacate</p>
+    </div>
+  </div>
+  <div  class="card" style="width: 20rem;">
+    <img class="card-img-top" src="https://recetinas.com/wp-content/uploads/2018/07/ajiaco-colombiano.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">Ajiaco</h4>
+      <p class="card-text">Es una sopa hecha con trozos de pollo, patatas y una hierba aromática llamada guasca, que le da su particular (¡y delicioso!) sabor. La sopa se suele servir con un trozo de mazorca de maíz y, como guarnición, arroz, alcaparras, medio aguacate y una crema blanca espesa. A continuación, se pueden añadir los ingredientes que se deseen a la sopa. </p>
+    </div>
+  </div>
+  <div  class="card" style="width: 20rem;">
+    <img class="card-img-top" src="https://cdn0.recetasgratis.net/es/posts/1/8/1/sancocho_de_gallina_o_pollo_12181_600_square.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">Sancocho</h4>
+      <p class="card-text">Esta sopa puede hacerse con pescado, pollo, carne de vaca o cerdo. El más famoso es el sancocho de pollo, también llamado “Sancocho de gallina”. En la sopa encontrarás maíz, patas de pollo, yuca, plátano, cilantro y patatas. Un plato muy completo, típico de un domingo familiar. </p>
+    </div>
+  </div>
+</div>

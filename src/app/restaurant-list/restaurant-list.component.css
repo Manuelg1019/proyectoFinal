@@ -1,0 +1,10 @@
+h2 {
+    text-align: center;
+    color: brown;
+}
+
+li {
+    border-style: solid;
+    border-color: brown;
+    border-width: 1px;
+}

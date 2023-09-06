@@ -1,0 +1,10 @@
+<div>
+  <h2>Listado de Culturas Gastronómicas</h2>
+  <ul class="boton">
+    <li *ngFor="let culture of cultures">
+      <button [routerLink]="['/cultures', culture.name]">{{ culture.name }}, {{culture.id}}</button>
+    </li>
+  </ul>
+</div>
+
+
