@@ -8,4 +8,8 @@ h2 {
 li{
     display: inline-block;
     margin-left: 2rem;
+    border-style: double;
+    border-color: brown;
+    width: 25rem;
+    margin-top: 5px;
 }
